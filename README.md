@@ -12,6 +12,18 @@
 8. 繪圖功能
 9. 文件撰寫
 
+# build
+
+```
+git clone https://github.com/M2shad0w/R_basic
+gitbook init
+gitbook build
+git checkout -b  gh-pages
+vi .gitignore // 删除忽略 _book
+git add -am ''
+git push origin gh-pages
+```
+
 # 作者資訊
 本書由 [Joe](https://github.com/joe11051105) 所撰寫。
 
