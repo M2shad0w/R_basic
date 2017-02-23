@@ -1,0 +1,726 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>資料變形 | Introduction</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.6">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../arrange_data/merge_and_subsetting.html" />
+    
+    
+    <link rel="prev" href="../arrange_data/recode.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="6.2"
+        data-chapter-title="資料變形"
+        data-filepath="arrange_data/reshape.md"
+        data-basepath=".."
+        data-revision="Thu Feb 23 2017 16:55:41 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="environment_settings/index.html">
+            
+                
+                    <a href="../environment_settings/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        Chapter 1 - 環境建置
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="environment_settings/install_R.html">
+            
+                
+                    <a href="../environment_settings/install_R.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        安裝與更新 R
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="environment_settings/install_RStudio.html">
+            
+                
+                    <a href="../environment_settings/install_RStudio.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        安裝 RStudio
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="environment_settings/RStudio_introduction.html">
+            
+                
+                    <a href="../environment_settings/RStudio_introduction.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        Rstudio 基本介紹
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="environment_settings/Change_R_version.html">
+            
+                
+                    <a href="../environment_settings/Change_R_version.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                        切換 R 的版本
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="environment_settings/open_R_console.html">
+            
+                
+                    <a href="../environment_settings/open_R_console.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.5.</b>
+                        
+                        Console 開啓 R console
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="environment_settings/install_and_load_package.html">
+            
+                
+                    <a href="../environment_settings/install_and_load_package.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.6.</b>
+                        
+                        安裝載入 package
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="basic_operation/index.html">
+            
+                
+                    <a href="../basic_operation/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Chapter 2 - 基本運算
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="basic_operation/data_attribute.html">
+            
+                
+                    <a href="../basic_operation/data_attribute.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        資料屬性
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="basic_operation/common_operation.html">
+            
+                
+                    <a href="../basic_operation/common_operation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        常見運算
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="variable_and_data/index.html">
+            
+                
+                    <a href="../variable_and_data/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Chapter 3 - 變數與資料
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="variable_and_data/variable.html">
+            
+                
+                    <a href="../variable_and_data/variable.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        變數
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="variable_and_data/vector.html">
+            
+                
+                    <a href="../variable_and_data/vector.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        向量
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="variable_and_data/array.html">
+            
+                
+                    <a href="../variable_and_data/array.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        陣列
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="variable_and_data/matrix.html">
+            
+                
+                    <a href="../variable_and_data/matrix.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        矩陣
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="variable_and_data/factor.html">
+            
+                
+                    <a href="../variable_and_data/factor.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        因子
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="variable_and_data/list.html">
+            
+                
+                    <a href="../variable_and_data/list.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.6.</b>
+                        
+                        列表
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="variable_and_data/data_frame.html">
+            
+                
+                    <a href="../variable_and_data/data_frame.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.</b>
+                        
+                        資料框架
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="data_import_and_export/index.html">
+            
+                
+                    <a href="../data_import_and_export/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Chapter 4 - 資料匯入與輸出
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="data_import_and_export/import_data.html">
+            
+                
+                    <a href="../data_import_and_export/import_data.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        匯入資料
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="data_import_and_export/export_data.html">
+            
+                
+                    <a href="../data_import_and_export/export_data.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        輸出資料
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="data_import_and_export/load_database.html">
+            
+                
+                    <a href="../data_import_and_export/load_database.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        讀取資料庫的資料
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="control_flow/index.html">
+            
+                
+                    <a href="../control_flow/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Chapter 5 - 流程控制
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="control_flow/logic_decision.html">
+            
+                
+                    <a href="../control_flow/logic_decision.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        邏輯判斷式
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="control_flow/conditional_execution.html">
+            
+                
+                    <a href="../control_flow/conditional_execution.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        條件執行
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="control_flow/loop.html">
+            
+                
+                    <a href="../control_flow/loop.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.</b>
+                        
+                        迴圈結構
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="arrange_data/index.html">
+            
+                
+                    <a href="../arrange_data/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        Chapter 6 - 資料整理
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="arrange_data/recode.html">
+            
+                
+                    <a href="../arrange_data/recode.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        重新編碼
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="6.2" data-path="arrange_data/reshape.html">
+            
+                
+                    <a href="../arrange_data/reshape.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        資料變形
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="arrange_data/merge_and_subsetting.html">
+            
+                
+                    <a href="../arrange_data/merge_and_subsetting.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.3.</b>
+                        
+                        資料合併與分割
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="customize_function/index.html">
+            
+                
+                    <a href="../customize_function/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        Chapter 7 - 自訂函數
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1" data-path="customize_function/define_function.html">
+            
+                
+                    <a href="../customize_function/define_function.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                        定義函數
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="customize_function/initialize.html">
+            
+                
+                    <a href="../customize_function/initialize.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.</b>
+                        
+                        建立 .First 與 .Last 函數
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Introduction</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="&#x8CC7;&#x6599;&#x8B8A;&#x5F62;">&#x8CC7;&#x6599;&#x8B8A;&#x5F62;</h1>
+<p>&#x5728;&#x7B2C;&#x4E09;&#x7AE0;&#x5E38;&#x63D0;&#x5230; as &#x958B;&#x982D;&#x7684;&#x51FD;&#x6578;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;as.vector&#x3001;as.array&#x3001;as.matric&#x3001;as.data.frame &#x7B49;&#xFF0C;&#x5176;&#x5BE6;&#x5C31;&#x662F;&#x8CC7;&#x6599;&#x8B8A;&#x5F62;&#x51FD;&#x6578;&#x7684;&#x4E00;&#x7A2E;&#xFF0C;&#x4EE5;&#x4E0B;&#x4ECB;&#x7D39;&#x5176;&#x4ED6;&#x5E38;&#x7528;&#x5230;&#x7684;&#x8CC7;&#x6599;&#x8B8A;&#x5F62;&#x51FD;&#x6578;&#x3002;</p>
+<ul>
+<li>stack &#x8207; unstack &#x51FD;&#x6578;</li>
+<li>reshape &#x51FD;&#x6578;</li>
+</ul>
+<pre><code class="lang-r">&gt; data &lt;- iris <span class="hljs-comment"># &#x4F7F;&#x7528; R &#x5167;&#x5EFA;&#x7684;&#x8CC7;&#x6599;&#x3002;</span>
+
+&gt; stack_data &lt;- stack(data) <span class="hljs-comment"># stack &#x51FD;&#x6578;&#x5C07;&#x5404;&#x884C;&#x8CC7;&#x6599;&#x6392;&#x6210;&#x4E00;&#x76F4;&#x884C;&#xFF0C;unstack &#x5247;&#x662F;&#x9084;&#x539F;&#x6210;&#x672A; stack &#x4E4B;&#x524D;&#x5F62;&#x614B;&#x3002;</span>
+
+&gt; <span class="hljs-keyword">library</span>(<span class="hljs-string">&quot;longitudinalData&quot;</span>)
+&gt; data &lt;- artificialJointLongData <span class="hljs-comment"># &#x6B64;&#x7A2E;&#x8CC7;&#x6599;&#x7A31;&#x4F5C;&#x70BA;&#x7E31;&#x5411;&#x8CC7;&#x6599;(Longitudinal Data)&#xFF0C;&#x901A;&#x5E38;&#x662F;&#x55AE;&#x4E00;&#x7269;&#x9AD4;&#x91CD;&#x8907;&#x6E2C;&#x91CF;&#x503C;&#x6240;&#x7522;&#x751F;&#x7684;&#x8CC7;&#x6599;&#xFF0C;&#x8A18;&#x9304;&#x65B9;&#x5F0F;&#x53EF;&#x4EE5;&#x7528;&#x9577;&#x578B;&#x8CC7;&#x6599;(long format)&#x6216;&#x5BEC;&#x578B;&#x8CC7;&#x6599;(wide format)&#x3002;</span>
+
+&gt; data_long = reshape(data, direction=<span class="hljs-string">&quot;long&quot;</span>, varying = list(c(<span class="hljs-string">&quot;v0&quot;</span>, <span class="hljs-string">&quot;v1&quot;</span>, <span class="hljs-string">&quot;v2&quot;</span>, <span class="hljs-string">&quot;v3&quot;</span>, <span class="hljs-string">&quot;v4&quot;</span>, <span class="hljs-string">&quot;v5&quot;</span>, <span class="hljs-string">&quot;v6&quot;</span>, <span class="hljs-string">&quot;v7&quot;</span>, <span class="hljs-string">&quot;v8&quot;</span>, <span class="hljs-string">&quot;v9&quot;</span>, <span class="hljs-string">&quot;v10&quot;</span>), c(<span class="hljs-string">&quot;w0&quot;</span>, <span class="hljs-string">&quot;w1&quot;</span>, <span class="hljs-string">&quot;w2&quot;</span>, <span class="hljs-string">&quot;w3&quot;</span>, <span class="hljs-string">&quot;w4&quot;</span>, <span class="hljs-string">&quot;w5&quot;</span>, <span class="hljs-string">&quot;w6&quot;</span>, <span class="hljs-string">&quot;w7&quot;</span>, <span class="hljs-string">&quot;w8&quot;</span>, <span class="hljs-string">&quot;w9&quot;</span>, <span class="hljs-string">&quot;w10&quot;</span>), c(<span class="hljs-string">&quot;x0&quot;</span>, <span class="hljs-string">&quot;x1&quot;</span>, <span class="hljs-string">&quot;x2&quot;</span>, <span class="hljs-string">&quot;x3&quot;</span>, <span class="hljs-string">&quot;x4&quot;</span>, <span class="hljs-string">&quot;x5&quot;</span>, <span class="hljs-string">&quot;x6&quot;</span>, <span class="hljs-string">&quot;x7&quot;</span>, <span class="hljs-string">&quot;x8&quot;</span>, <span class="hljs-string">&quot;x9&quot;</span>, <span class="hljs-string">&quot;x10&quot;</span>)), v.names = c(<span class="hljs-string">&quot;v&quot;</span>, <span class="hljs-string">&quot;w&quot;</span>, <span class="hljs-string">&quot;x&quot;</span>), idvar = <span class="hljs-string">&quot;id&quot;</span>) <span class="hljs-comment"># &#x5229;&#x7528; reshape &#x51FD;&#x6578;&#x5C07;&#x8CC7;&#x6599;&#x5F9E; wide &#x8F49;&#x6210; long</span>
+
+&gt; data_wide = reshape(data_long, direction=<span class="hljs-string">&quot;wide&quot;</span>,v.names = c(<span class="hljs-string">&quot;v&quot;</span>, <span class="hljs-string">&quot;w&quot;</span>, <span class="hljs-string">&quot;x&quot;</span>), idvar = <span class="hljs-string">&quot;id&quot;</span>) <span class="hljs-comment"># &#x5229;&#x7528; reshape &#x51FD;&#x6578;&#x5C07;&#x8CC7;&#x6599;&#x5F9E; long &#x8F49;&#x6210; wide</span>
+</code></pre>
+<p>&#x89E3;&#x91CB;&#x4EE5;&#x4E0A; reshape &#x51FD;&#x6578;&#x4E00;&#x4E9B;&#x53C3;&#x6578;&#x7684;&#x7528;&#x610F;&#x3002;</p>
+<ul>
+<li>direction&#xFF1A;&#x8CC7;&#x6599;&#x8981;&#x8F49;&#x6210;&#x54EA;&#x7A2E;&#x985E;&#x578B;&#xFF0C;long &#x6216; wide&#x3002;</li>
+<li>varying&#xFF1A;&#x7528;&#x65BC; wide &#x8F49; long &#x6642;&#xFF0C;&#x54EA;&#x4E9B;&#x6B04;&#x4F4D;&#x8981;&#x8B8A;&#x6210;&#x4E00;&#x500B;&#x6B04;&#x4F4D;&#x7684;&#x9577;&#x671F;&#x89C0;&#x5BDF;&#x8CC7;&#x6599;&#xFF0C;&#x4F8B;&#x5982; v0 ~ v1 &#x8981;&#x8B8A;&#x6210; v&#xFF0C;w0 ~ w10 &#x8B8A;&#x6210; w&#xFF0C;x0 ~ x10 &#x8B8A;&#x6210; x&#x3002;</li>
+<li>v.names&#xFF1A;&#x5C0D;&#x65BC; wide &#x8F49; long &#x6642;&#xFF0C;&#x7576;&#x4F5C;&#x662F; long &#x8CC7;&#x6599;&#x7684;&#x6B04;&#x4F4D;&#xFF0C;&#x5C0D;&#x65BC; long &#x8F49; wide&#xFF0C;&#x54EA;&#x4E9B;&#x6B04;&#x4F4D;&#x8981;&#x8B8A;&#x6210;&#x591A;&#x500B;&#x6B04;&#x4F4D;&#x89C0;&#x5BDF;&#x503C;&#x3002;</li>
+<li>idvar&#xFF1A;&#x975E;&#x91CD;&#x8907;&#x6027;&#x89C0;&#x5BDF;&#x8CC7;&#x6599;&#xFF0C;&#x591A;&#x534A;&#x662F;&#x53EF;&#x4EE5;&#x5206;&#x8FA8;&#x89C0;&#x5BDF;&#x7269;&#x9AD4;&#x7684;&#x8B8A;&#x6578;&#xFF0C;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;id&#x3001;&#x540D;&#x7A31;&#x7B49;&#x3002;</li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../arrange_data/recode.html" class="navigation navigation-prev " aria-label="Previous page: 重新編碼"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../arrange_data/merge_and_subsetting.html" class="navigation navigation-next " aria-label="Next page: 資料合併與分割"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
